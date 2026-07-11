@@ -1,0 +1,229 @@
+@charset "utf-8"
+
+
+
+article{
+    position: relative;
+    clear: both;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article img{
+    float: left;
+}
+
+body{
+    background-color: #ccffffbf;
+    color: #e63e92;
+    font-family:"メイリオ";
+    font-size: smaller;
+    margin: 0;
+    padding: 0;
+}
+
+
+p{
+    font-size: 90%;
+    line-height: 1.8
+}
+
+
+.catch{
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    width: 320px;
+    color: #ccffff;
+    font-size: 6px;
+    text-align: center;
+}
+
+.topimage{
+    position: relative;
+    width: 590px;
+}
+
+header{
+    background-color: #3333cc;
+}
+
+
+header img{
+    float: left;
+}
+
+h1{
+    font-size: 180%;
+}
+
+
+.sub-h1{
+    background: linear-gradient(to right,#e63e9254,#e63e9200);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-shadow: 0px 0px 10px #e63e92c4;
+    font-size: 180%;
+
+}
+
+
+h2{
+    font-size: 120%;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-shadow: 0px 0px 10px #e63e92c4;
+    margin-top: 150px;
+    background: linear-gradient(to right,#e63e9254,#e63e9200);
+}
+
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 90%;
+    line-height: 1.8;
+}
+
+
+time{
+    border-radius: 10px;
+    background-color: #e63e9233;
+    color: #e63e92;
+    font-size: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 8px
+}
+
+
+footer{
+    background-color: #3333cc;
+    text-align: center;
+    color: #ccffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+nav ul{
+    font-weight: bold;
+    float:left;
+    text-align: right;
+}
+
+
+nav li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 12px;
+    border-left: 2px solid #3333cc;
+}
+
+
+/*600px以下の場合*/
+@media (max-width: 600px){
+    nav li{
+        font-size: 75%;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    footer{
+        font-size: 75%;
+    }
+
+    .catch{
+        top: 5px;
+        left: 10px;
+    }
+}
+
+
+/*959px以下の場合*/
+@media (max-width: 959px){
+    header img{
+        float: none;
+    }
+
+    nav ul{
+        text-align: left;
+        padding: 0;
+        margin-left: 10px;
+    }
+
+    article{
+        width: auto;
+    }
+
+    article img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .header-in{
+        width: auto;
+    }
+}
+
+
+.point-list{
+    list-style-image: url(../image/hosi.png);
+    font-weight: bold;
+    margin-left: 50px;
+    display: block;
+    float: left;
+}
+
+
+.point-img{
+    box-shadow: 0px 0px 8px 4px #3333cc;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.sentou{
+    clear: both;
+    text-align: right;
+}
+
+ol li{
+    /* border: 1px solid blue; */
+    display: inline;
+    margin-right: 5px;
+    font-size: 80%;
+}
+
+ol{
+    display: inline;
+    font-size: 80%;
+    padding-left: 8px;
+}
+
+
+.page{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+nav ul a{
+    text-decoration: underline;
+    color: #3333cc;
+}
+
+
+nav ul a:hover{
+    color: #e63e92;
+}
+
+
+nav ul a:active{
+    color: #ff1088;
+}
